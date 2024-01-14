@@ -6,8 +6,8 @@ from PIL import Image
 def app():
     # --- PATH SETTINGS ---
     current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-    css_file = current_dir / "styles" / "main.css"
-    profile_pic = current_dir / "assets" / "profile-pic.jpg"
+    css_file = current_dir  / "main.css"
+    profile_pic = current_dir  / "profile-pic.jpg"
 
 
     # --- GENERAL SETTINGS ---
