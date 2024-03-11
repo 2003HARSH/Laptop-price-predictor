@@ -13,7 +13,7 @@ Predict laptop prices with accuracy using this machine learning model based on a
 ## How to Use
 
 1. Install the required libraries: `pip install -r requirements.txt`.
-2. Run the Streamlit app: `streamlit run app.py`.
+2. Run the Streamlit app: `streamlit run main.py`.
 3. Access the app in your browser and input laptop specifications for price predictions.
 
 
