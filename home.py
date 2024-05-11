@@ -75,6 +75,6 @@ def app():
         query = np.array([company, type, ram, weight, touchscreen,
                          ips, ppi, cpu, hdd, ssd, gpu, os])
         query = query.reshape(1, 12)
-        st.text("The predicted price of this configuration is Rs. " +
+        st.header("The predicted price of a laptop with this configuration is Rs. " +
                  str(int(np.exp(pipe.predict(query)[0]))))
     
