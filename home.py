@@ -25,8 +25,8 @@ def set_background(png_file):
 def app():
     set_background("./bg_photo.jpg")
     
-    pipe = pickle.load(open('pipe1.pkl', 'rb'))
-    df = pickle.load(open('df.pkl', 'rb'))
+    pipe = pickle.read_pickle(open('pipe1.pkl', 'rb'))
+    df = pickle.read_pickle(open('df.pkl', 'rb'))
     
     st.title("Laptop Price Pridector")
     
