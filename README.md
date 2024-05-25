@@ -2,6 +2,9 @@
 
 Welcome to the Laptop Price Predictor, a robust machine learning model using a Random Forest Regressor to provide accurate price predictions based on laptop features. The project is designed to be user-friendly with a Streamlit interface.
 
+### Streamlit UI:
+![](https://github.com/2003HARSH/Laptop-price-predictor/blob/main/docs/static/laptop.png)
+
 ## Key Features
 - **Predictive Power:** Achieved an impressive R2 score of 90%.
 - **Advanced Techniques:** Utilized Scikit-learn, Pandas, Numpy, Regex, Streamlit, Matplotlib, Seaborn, and more.
