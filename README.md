@@ -38,3 +38,4 @@ Welcome to the Laptop Price Predictor, a robust machine learning model using a R
    The app will predict the laptop price based on the provided features.
 
 This project exemplifies the power of machine learning in predicting laptop prices, with an intuitive Streamlit interface for ease of use. #MachineLearning #PricePrediction #LaptopPredictor #Streamlit 🚀💻📊
+
